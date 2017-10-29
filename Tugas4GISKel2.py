@@ -28,3 +28,17 @@ folium.Marker([3.688865, 98.660769], popup='<i>Kampus LP3I</i>').add_to(m)
 folium.Marker([3.688924, 98.660048], popup='<i>Mitra Jaya Perabot</i>').add_to(m)
 folium.Marker([3.688985, 98.659887], popup='<i>Warung Sticker</i>').add_to(m)
 folium.Marker([3.689044, 98.660338], popup='<i>Wihara Maitreya Loka</i>').add_to(m)
+
+folium.Marker([3.529454, 98.743142], popup='<i>Komplek Taman Riviera</i>').add_to(m)
+folium.Marker([3.530242, 98.742922], popup='<i>Atlas Copco Indonesia. PT - Taman Riviera</i>').add_to(m)
+folium.Marker([3.531529, 98.744600], popup='<i>Mbak Inah Riviera</i>').add_to(m)
+folium.Marker([3.531370, 98.744229], popup='<i>Warung Langkah Baru</i>').add_to(m)
+folium.Marker([3.531892, 98.744995], popup='<i>Tugu Batas Kota</i>').add_to(m)
+folium.Marker([3.532369, 98.742211], popup='<i>Traktor Nusantara. PT - Tanjung Morawa</i>').add_to(m)
+folium.Marker([3.533399, 98.742658], popup='<i>Tamora Indah</i>').add_to(m)
+folium.Marker([3.533520, 98.741224], popup='<i>Indomart Bangun Mulia</i>').add_to(m)
+folium.Marker([3.534073, 98.740678], popup='<i>Kedai Kopi Tebol</i>').add_to(m)
+folium.Marker([3.534414, 98.743773], popup='<i>Mora Indah</i>').add_to(m)
+
+m
+# huruf m diatas jangan di hapus! by adam!
