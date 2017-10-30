@@ -40,5 +40,17 @@ folium.Marker([3.533520, 98.741224], popup='<i>Indomart Bangun Mulia</i>').add_t
 folium.Marker([3.534073, 98.740678], popup='<i>Kedai Kopi Tebol</i>').add_to(m)
 folium.Marker([3.534414, 98.743773], popup='<i>Mora Indah</i>').add_to(m)
 
+folium.Marker([3.618215, 98.678526], popup='<i>Sd Muhammadiyah 02</i>').add_to(m)
+folium.Marker([3.618328, 98.678537], popup='<i>Smp Muhammadiyah 57</i>').add_to(m)
+folium.Marker([3.590459, 98.677830], popup='<i>Batiks Urban Cafe</i>').add_to(m)
+folium.Marker([3.618340, 98.678300], popup='<i>Rumah Sakit Widya Husada</i>').add_to(m)
+folium.Marker([3.617989, 98.678204], popup='<i>Rumah Sakit Ibu & anak Az-Zakiyah </i>').add_to(m)
+folium.Marker([3.618450, 98.677978], popup='<i>Kak Inong</i>').add_to(m)
+folium.Marker([3.617781, 98.677890], popup='<i>Pimpinan cabang Muhammadiyah</i>').add_to(m)
+folium.Marker([3.617684, 98.678048], popup='<i>Mie balap kq5</i>').add_to(m)
+folium.Marker([3.617342, 98.678282], popup='<i>Nazwa aneka kue</i>').add_to(m)
+folium.Marker([3.617329, 98.678105], popup='<i>Nasi Goreng Teguh Jaya</i>').add_to(m)
+
+
 m
 # huruf m diatas jangan di hapus! by adam!
