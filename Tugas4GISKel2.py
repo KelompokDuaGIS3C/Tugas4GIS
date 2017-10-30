@@ -51,6 +51,16 @@ folium.Marker([3.617684, 98.678048], popup='<i>Mie balap kq5</i>').add_to(m)
 folium.Marker([3.617342, 98.678282], popup='<i>Nazwa aneka kue</i>').add_to(m)
 folium.Marker([3.617329, 98.678105], popup='<i>Nasi Goreng Teguh Jaya</i>').add_to(m)
 
+folium.Marker([3.490658, 98.642756], popup='<i>CV.WELINDO SAONG UTAMA</i>').add_to(m)
+folium.Marker([3.490983, 98.643065], popup='<i>Warung Muslim</i>').add_to(m)
+folium.Marker([3.510058, 98.649614], popup='<i>Agung Ponsel</i>').add_to(m)
+folium.Marker([3.510685, 98.649176], popup='<i>Gereja Methodist Indonesia</i>').add_to(m)
+folium.Marker([3.510687, 98.649841], popup='<i>Alfamart Simalingkar B</i>').add_to(m)
+folium.Marker([3.510838, 98.649783], popup='<i>RM BAKMI HENDRA</i>').add_to(m)
+folium.Marker([3.511002, 98.649809], popup='<i>UD. Silaban</i>').add_to(m)
+folium.Marker([3.511098, 98.650037], popup='<i>Dana Water</i>').add_to(m)
+folium.Marker([3.511138, 98.649867], popup='<i>MIKHAEL PONSEL & KEDAI SARAPAN MIKHAEL S.</i>').add_to(m)
+folium.Marker([3.511230, 98.649863], popup='<i>AM TOUR & TRAVEL</i>').add_to(m)
 
 m
 # huruf m diatas jangan di hapus! by adam!
