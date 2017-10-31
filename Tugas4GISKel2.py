@@ -84,6 +84,28 @@ folium.Marker([3.607603,98.6769737], popup='<i>Roy Mobil</i>').add_to(m)
 folium.Marker([3.6071828,98.6763212], popup='<i>Radana Finance Medan</i>').add_to(m)
 folium.Marker([3.6071225,98.6754636], popup='<i>Jasa Raharja</i>').add_to(m)
 
+folium.Marker([3.619250, 98.677948], popup='<i>Ayam Penyet Sehat</i>').add_to(m)
+folium.Marker([3.619641, 98.678353], popup='<i>Katty Kafee</i>').add_to(m)
+folium.Marker([3.619703, 98.677999], popup='<i>Badan Nasional Penempatan dan Perlindungan Tenaga Kerja Indonesia</i>').add_to(m)
+folium.Marker([3.619830, 98.678226], popup='<i>Sanggar Senam Widuri</i>').add_to(m)
+folium.Marker([3.619608, 98.678060], popup='<i>Planet Of The Vapes / POTV express</i>').add_to(m)
+folium.Marker([3.619651, 98.678279], popup='<i>Kalibre Store</i>').add_to(m)
+folium.Marker([3.620511, 98.677904], popup='<i>PT. Total Data Persada</i>').add_to(m)
+folium.Marker([3.620406, 98.678063], popup='<i>Gudang Bulog Mustafa</i>').add_to(m)
+folium.Marker([3.620422, 98.678251], popup='<i>Koprasi Simpan Pinjam Cinta Kasih</i>').add_to(m)
+folium.Marker([3.620710, 98.678343], popup='<i>Mega Multi. PT</i>').add_to(m)
+
+folium.Marker([3.620923, 98.678272], popup='<i>D"LIMA WATER</i>').add_to(m)
+folium.Marker([3.620534, 98.680605], popup='<i>IT Comm ( Authorized Service Center )</i>').add_to(m)
+folium.Marker([3.620751, 98.680694], popup='<i>Angliss Bakehouse</i>').add_to(m)
+folium.Marker([3.620303, 98.680704], popup='<i>Kedai Kopi Uleekareng & Gayo Krakatau</i>').add_to(m)
+folium.Marker([3.620233, 98.680977], popup='<i>King Master Furniture</i>').add_to(m)
+folium.Marker([3.620790, 98.681055], popup='<i>Longer Resto Cafe</i>').add_to(m)
+folium.Marker([3.620706, 98.680510], popup='<i>auto88 mobil</i>').add_to(m)
+folium.Marker([3.620056, 98.680708], popup='<i>TOP CUT Barbershop</i>').add_to(m)
+folium.Marker([3.619950, 98.680754], popup='<i>Rumah Makan Pagi Sore</i>').add_to(m)
+folium.Marker([3.620190, 98.680454], popup='<iArsitek Medan , MAT architect , MAT design schoo</i>').add_to(m)
+
 
 m
 # huruf m diatas jangan di hapus! by adam!
