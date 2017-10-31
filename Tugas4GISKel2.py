@@ -73,6 +73,17 @@ folium.Marker([3.688924, 98.660048], popup='<i>Mitra Jaya Perabot</i>').add_to(m
 folium.Marker([3.619246, 98.678666], popup='<i>Singkong Thailand Lumer Medan</i>').add_to(m)
 folium.Marker([3.619381, 98.678235], popup='<i>Apotek Rezeki Tiga S</i>').add_to(m)
 
+folium.Marker([3.6060894,98.6769312], popup='<i>Toko Bintang</i>').add_to(m)
+folium.Marker([3.6058833,98.6767361], popup='<i>solid</i>').add_to(m)
+folium.Marker([3.6058833,98.6767361], popup='<i>bintang 99</i>').add_to(m)
+folium.Marker([3.6059863,98.6767602], popup='<i>restoran gaharu</i>').add_to(m)
+folium.Marker([3.6063375,98.6765338], popup='<i>S.Sipayung Ponsel</i>').add_to(m)
+folium.Marker([3.6066266,98.6770923], popup='<i>Pondok Kampoeng Bamboe Ayam Rica Rica</i>').add_to(m)
+folium.Marker([3.6069385,98.6771058], popup='<i>Ikan Bakar Sibolga</i>').add_to(m)
+folium.Marker([3.607603,98.6769737], popup='<i>Roy Mobil</i>').add_to(m)
+folium.Marker([3.6071828,98.6763212], popup='<i>Radana Finance Medan</i>').add_to(m)
+folium.Marker([3.6071225,98.6754636], popup='<i>Jasa Raharja</i>').add_to(m)
+
 
 m
 # huruf m diatas jangan di hapus! by adam!
