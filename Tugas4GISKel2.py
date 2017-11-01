@@ -106,6 +106,16 @@ folium.Marker([3.620056, 98.680708], popup='<i>TOP CUT Barbershop</i>').add_to(m
 folium.Marker([3.619950, 98.680754], popup='<i>Rumah Makan Pagi Sore</i>').add_to(m)
 folium.Marker([3.620190, 98.680454], popup='<iArsitek Medan , MAT architect , MAT design schoo</i>').add_to(m)
 
+folium.Marker([3.637861, 98.669650], popup='<i>Momkids. CV</i>').add_to(m)
+folium.Marker([3.638444, 98.669814], popup='<i>Kos Yosafat</i>').add_to(m)
+folium.Marker([3.638655, 98.670361], popup='<i>Lis Ponsel</i>').add_to(m)
+folium.Marker([3.638548, 98.669823], popup='<i>DESRY ELEKTRIK</i>').add_to(m)
+folium.Marker([3.638720, 98.669437], popup='<i>Angga Ponsel 2</i>').add_to(m)
+folium.Marker([3.638826, 98.669386], popup='<i>Bu Neng Collection</i>').add_to(m)
+folium.Marker([3.638966, 98.669383], popup='<i>Mirel Baby & Kids</i>').add_to(m)
+folium.Marker([3.639800, 98.669011], popup='<i>Mukhsin hts tailor</i>').add_to(m)
+folium.Marker([3.640030, 98.668539], popup='<i>Halim Ponsel</i>').add_to(m)
+folium.Marker([3.640894, 98.668319], popup='<i>Vz Motor</i>').add_to(m)
 
 m
 # huruf m diatas jangan di hapus! by adam!
