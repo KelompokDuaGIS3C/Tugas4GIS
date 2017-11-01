@@ -128,6 +128,16 @@ folium.Marker([2.9591398,98.7860458], popup='<i>GKPS Bandar Bayu</i>').add_to(m)
 folium.Marker([2.9272101,98.7194412], popup='<i>KantorposTigarunggu</i>').add_to(m)
 folium.Marker([2.9089626,98.679648], popup='<i>Rumah Bolon Raja Purba</i>').add_to(m)
 
+folium.Marker([3.574007, 98.665819], popup='<i>Jimbaran Resto - Medan</i>').add_to(m)
+folium.Marker([3.574059, 98.665408], popup='<i>Shoot. Pool Lounge & Sport Bar</i>').add_to(m)
+folium.Marker([3.574329, 98.665296], popup='<i>The Traders Restaurant</i>').add_to(m)
+folium.Marker([3.574377, 98.665695], popup='<i>Pocillo Coffee</i>').add_to(m)
+folium.Marker([3.574595, 98.665442], popup='<i>All Day Bread & Pocillo Coffee</i>').add_to(m)
+folium.Marker([3.574847, 98.665560], popup='<i>Bebek Ubud</i>').add_to(m)
+folium.Marker([3.574424, 98.666487], popup='<i>Graha Siga. PT</i>').add_to(m)
+folium.Marker([3.575052, 98.665787], popup='<i>Restoran Sederhana</i>').add_to(m)
+folium.Marker([3.575090, 98.665578], popup='<i>WARUNG OMonde</i>').add_to(m)
+folium.Marker([3.575227, 98.665636], popup='<i>Warung Nasi Selera Kita</i>').add_to(m)
 
 m
 # huruf m diatas jangan di hapus! by adam!
