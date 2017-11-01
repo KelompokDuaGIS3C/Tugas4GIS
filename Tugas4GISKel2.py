@@ -117,5 +117,17 @@ folium.Marker([3.639800, 98.669011], popup='<i>Mukhsin hts tailor</i>').add_to(m
 folium.Marker([3.640030, 98.668539], popup='<i>Halim Ponsel</i>').add_to(m)
 folium.Marker([3.640894, 98.668319], popup='<i>Vz Motor</i>').add_to(m)
 
+folium.Marker([2.9652374,99.0559392], popup='<i>Taman Hewan Pematang Siantar</i>').add_to(m)
+folium.Marker([2.9638971,99.0013521], popup='<i>GKPS Tengkoh</i>').add_to(m)
+folium.Marker([2.9212955,98.9310997], popup='<i>Minolata Motor</i>').add_to(m)
+folium.Marker([2.9462395,98.8881414], popup='<i>HKBP Merek Raya</i>').add_to(m)
+folium.Marker([2.9550254,98.865525], popup='<i>SMA Plus PMS Raya</i>').add_to(m)
+folium.Marker([2.9571255,98.8468569], popup='<i>SMK Negeri 1 raya</i>').add_to(m)
+folium.Marker([2.9612827,98.826515], popup='<i>Kantor DPRDSiaungun</i>').add_to(m)
+folium.Marker([2.9591398,98.7860458], popup='<i>GKPS Bandar Bayu</i>').add_to(m)
+folium.Marker([2.9272101,98.7194412], popup='<i>KantorposTigarunggu</i>').add_to(m)
+folium.Marker([2.9089626,98.679648], popup='<i>Rumah Bolon Raja Purba</i>').add_to(m)
+
+
 m
 # huruf m diatas jangan di hapus! by adam!
