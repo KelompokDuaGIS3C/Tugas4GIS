@@ -139,5 +139,16 @@ folium.Marker([3.575052, 98.665787], popup='<i>Restoran Sederhana</i>').add_to(m
 folium.Marker([3.575090, 98.665578], popup='<i>WARUNG OMonde</i>').add_to(m)
 folium.Marker([3.575227, 98.665636], popup='<i>Warung Nasi Selera Kita</i>').add_to(m)
 
+folium.Marker([3.540923, 98.653942], popup='<i>Warkop AADS</i>').add_to(m)
+folium.Marker([3.540852, 98.654248], popup='<i>Coffee Store Warkop Putri</i>').add_to(m)
+folium.Marker([3.541015, 98.654292], popup='<i>Adira Finance</i>').add_to(m)
+folium.Marker([3.541177, 98.654298], popup='<i>Bank BRI</i>').add_to(m)
+folium.Marker([3.541055, 98.654162], popup='<i>HD CAFE</i>').add_to(m)
+folium.Marker([3.541178, 98.654056], popup='<i>Permata Water</i>').add_to(m)
+folium.Marker([3.541151, 98.654460], popup='<i>UD.BIMA</i>').add_to(m)
+folium.Marker([3.541389, 98.654427], popup='<i>Auto Clean Service</i>').add_to(m)
+folium.Marker([3.541334, 98.654582], popup='<i>oko Sepeda Pandiangan</i>').add_to(m)
+folium.Marker([3.541495, 98.654794], popup='<i>Bak mie Sp.pos</i>').add_to(m)
+
 m
 # huruf m diatas jangan di hapus! by adam!
