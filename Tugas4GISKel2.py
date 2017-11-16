@@ -1,10 +1,32 @@
 import folium 
 
-m = folium.Map(
-location=[3.597031, 98.678513],
-zoom_start=12,
-tiles='Stamen Terrain')
+def peta(long,lat):
+	m = folium.Map(
+    location=[long,lat],
+    zoom_start=12,
+    tiles='Stamen Terrain')
+	return m
+	
+def coba(long,lat):
+	p = folium.Map(
+    location=[long,lat],
+    zoom_start=12,
+    tiles='Stamen Terrain')	
+	return p
 
+def pungsi(apa,ini):
+	d = folium.Map(
+	location=[long,lat],
+	zoom_start=12,
+    tiles='Stamen Terrain')	
+	return d
+	
+def simpan(pusing, kepala):
+	pusing.save(kepala)
+
+m = peta(3.597031, 98.678513)
+p = coba(3.597031, 98.678513)
+d = pungsi(3.597031, 98.678513)
 tooltip = 'Click me!'
 
 folium.Marker([3.590678, 98.678527], popup='<i>Lapangan Merdeka</i>').add_to(m)
@@ -106,17 +128,6 @@ folium.Marker([3.620056, 98.680708], popup='<i>TOP CUT Barbershop</i>').add_to(m
 folium.Marker([3.619950, 98.680754], popup='<i>Rumah Makan Pagi Sore</i>').add_to(m)
 folium.Marker([3.620190, 98.680454], popup='<iArsitek Medan , MAT architect , MAT design schoo</i>').add_to(m)
 
-folium.Marker([3.637861, 98.669650], popup='<i>Momkids. CV</i>').add_to(m)
-folium.Marker([3.638444, 98.669814], popup='<i>Kos Yosafat</i>').add_to(m)
-folium.Marker([3.638655, 98.670361], popup='<i>Lis Ponsel</i>').add_to(m)
-folium.Marker([3.638548, 98.669823], popup='<i>DESRY ELEKTRIK</i>').add_to(m)
-folium.Marker([3.638720, 98.669437], popup='<i>Angga Ponsel 2</i>').add_to(m)
-folium.Marker([3.638826, 98.669386], popup='<i>Bu Neng Collection</i>').add_to(m)
-folium.Marker([3.638966, 98.669383], popup='<i>Mirel Baby & Kids</i>').add_to(m)
-folium.Marker([3.639800, 98.669011], popup='<i>Mukhsin hts tailor</i>').add_to(m)
-folium.Marker([3.640030, 98.668539], popup='<i>Halim Ponsel</i>').add_to(m)
-folium.Marker([3.640894, 98.668319], popup='<i>Vz Motor</i>').add_to(m)
-
 folium.Marker([2.9652374,99.0559392], popup='<i>Taman Hewan Pematang Siantar</i>').add_to(m)
 folium.Marker([2.9638971,99.0013521], popup='<i>GKPS Tengkoh</i>').add_to(m)
 folium.Marker([2.9212955,98.9310997], popup='<i>Minolata Motor</i>').add_to(m)
@@ -139,18 +150,6 @@ folium.Marker([3.575052, 98.665787], popup='<i>Restoran Sederhana</i>').add_to(m
 folium.Marker([3.575090, 98.665578], popup='<i>WARUNG OMonde</i>').add_to(m)
 folium.Marker([3.575227, 98.665636], popup='<i>Warung Nasi Selera Kita</i>').add_to(m)
 
-folium.Marker([3.540923, 98.653942], popup='<i>Warkop AADS</i>').add_to(m)
-folium.Marker([3.540852, 98.654248], popup='<i>Coffee Store Warkop Putri</i>').add_to(m)
-folium.Marker([3.541015, 98.654292], popup='<i>Adira Finance</i>').add_to(m)
-folium.Marker([3.541177, 98.654298], popup='<i>Bank BRI</i>').add_to(m)
-folium.Marker([3.541055, 98.654162], popup='<i>HD CAFE</i>').add_to(m)
-folium.Marker([3.541178, 98.654056], popup='<i>Permata Water</i>').add_to(m)
-folium.Marker([3.541151, 98.654460], popup='<i>UD.BIMA</i>').add_to(m)
-folium.Marker([3.541389, 98.654427], popup='<i>Auto Clean Service</i>').add_to(m)
-folium.Marker([3.541334, 98.654582], popup='<i>oko Sepeda Pandiangan</i>').add_to(m)
-folium.Marker([3.541495, 98.654794], popup='<i>Bak mie Sp.pos</i>').add_to(m)
-
-
 folium.Marker([3.6514101,98.5873849], popup='<i>Polsek Medan Barat</i>').add_to(m)
 folium.Marker([3.6768498,98.4794896], popup='<i>Polsek Medan Belawan</i>').add_to(m)
 folium.Marker([3.6004877,98.6931626], popup='<i>Waroeng Wali Kuliner & Kopi</i>').add_to(m)
@@ -163,4 +162,35 @@ folium.Marker([3.595201,98.6813256], popup='<i>SMA Negeri 3 Medan</i>').add_to(m
 folium.Marker([3.5948895,98.67719], popup='<i>Universitas Katolik Santo Thomas</i>').add_to(m)
 
 m
-# huruf m diatas jangan di hapus! by adam!
+
+folium.circle( radius=100, location=[3.637861, 98.669650], popup='Momkids CV').add_to(p)
+folium.circle( radius=100, location=[3.638444, 98.669814], popup='Kos Yosafat').add_to(p)
+folium.circle( radius=100, location=[3.638655, 98.670361], popup='Lis Ponsel').add_to(p)
+folium.circle( radius=100, location=[3.638548, 98.669823], popup='DESRY ELEKTRIK').add_to(p)
+folium.circle( radius=100, location=[3.638720, 98.669437], popup='Angga Ponsel 2').add_to(p)
+folium.circle( radius=100, location=[3.638826, 98.669386], popup='Bu Neng Collection').add_to(p)
+folium.circle( radius=100, location=[3.638966, 98.669383], popup='Mirel Baby & Kids').add_to(p)
+folium.circle( radius=100, location=[3.639800, 98.669011], popup='Mukhsin hts tailor').add_to(p)
+folium.circle( radius=100, location=[3.640030, 98.668539], popup='Halim Ponsel').add_to(p)
+folium.circle( radius=100, location=[3.640894, 98.668319], popup='Vz Motor').add_to(p)
+
+p
+
+folium.Marker( location=[3.540923, 98.653942], popup='Warkop AADS').add_to(d)
+folium.Marker( location=[3.540852, 98.654248], popup='Coffee Store Warkop Putri').add_to(d)
+folium.Marker( location=[3.541015, 98.654292], popup='Adira Finance').add_to(d)
+folium.Marker( location=[3.541177, 98.654298], popup='Bank BRI').add_to(d)
+folium.Marker( location=[3.541055, 98.654162], popup='HD CAFE').add_to(d)
+folium.Marker( location=[3.541178, 98.654056], popup='Permata Water').add_to(d)
+folium.Marker( location=[3.541151, 98.654460], popup='UD.BIMA').add_to(d)
+folium.Marker( location=[3.541389, 98.654427], popup='Auto Clean Service').add_to(d)
+folium.Marker( location=[3.541334, 98.654582], popup='Toko Sepeda Pandiangan').add_to(d)
+folium.Marker( location=[3.541495, 98.654794], popup='Bak mie Sp.pos').add_to(d)
+
+d
+
+save(m,'1.html')
+save(p,'2.html')
+save(d,'3.html')
+
+# huruf m,p,d diatas jangan di hapus! by adam!
