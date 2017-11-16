@@ -14,14 +14,14 @@ def coba(long,lat):
     tiles='Stamen Terrain')	
 	return p
 
-def pungsi(apa,ini):
+def pungsi(long,lat):
 	d = folium.Map(
 	location=[long,lat],
 	zoom_start=12,
     tiles='Stamen Terrain')	
 	return d
 	
-def simpan(pusing, kepala):
+def save(pusing, kepala):
 	pusing.save(kepala)
 
 m = peta(3.597031, 98.678513)
