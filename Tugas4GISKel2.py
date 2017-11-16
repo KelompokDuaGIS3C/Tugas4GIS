@@ -150,5 +150,17 @@ folium.Marker([3.541389, 98.654427], popup='<i>Auto Clean Service</i>').add_to(m
 folium.Marker([3.541334, 98.654582], popup='<i>oko Sepeda Pandiangan</i>').add_to(m)
 folium.Marker([3.541495, 98.654794], popup='<i>Bak mie Sp.pos</i>').add_to(m)
 
+
+folium.Marker([3.6514101,98.5873849], popup='<i>Polsek Medan Barat</i>').add_to(m)
+folium.Marker([3.6768498,98.4794896], popup='<i>Polsek Medan Belawan</i>').add_to(m)
+folium.Marker([3.6004877,98.6931626], popup='<i>Waroeng Wali Kuliner & Kopi</i>').add_to(m)
+folium.Marker([3.6083462,98.4866872], popup='<i>Kuliner Q3</i>').add_to(m)
+folium.Marker([3.6004877,98.6931626], popup='<i>Denai Kuliner</i>').add_to(m)
+folium.Marker([3.5915316,98.7016375], popup='<i>SMP Negeri 12</i>').add_to(m)
+folium.Marker([3.5915308,98.6776482], popup='<i>Universitas Islam Sumatera Utara Fakultas Kedokteran</i>').add_to(m)
+folium.Marker([3.595201,98.6813256], popup='<i>UIN Sumatera Utara Pacsasarjana</i>').add_to(m)
+folium.Marker([3.595201,98.6813256], popup='<i>SMA Negeri 3 Medan</i>').add_to(m)
+folium.Marker([3.5948895,98.67719], popup='<i>Universitas Katolik Santo Thomas</i>').add_to(m)
+
 m
 # huruf m diatas jangan di hapus! by adam!
