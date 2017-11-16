@@ -163,16 +163,16 @@ folium.Marker([3.5948895,98.67719], popup='<i>Universitas Katolik Santo Thomas</
 
 m
 
-folium.circle( radius=100, location=[3.637861, 98.669650], popup='Momkids CV').add_to(p)
-folium.circle( radius=100, location=[3.638444, 98.669814], popup='Kos Yosafat').add_to(p)
-folium.circle( radius=100, location=[3.638655, 98.670361], popup='Lis Ponsel').add_to(p)
-folium.circle( radius=100, location=[3.638548, 98.669823], popup='DESRY ELEKTRIK').add_to(p)
-folium.circle( radius=100, location=[3.638720, 98.669437], popup='Angga Ponsel 2').add_to(p)
-folium.circle( radius=100, location=[3.638826, 98.669386], popup='Bu Neng Collection').add_to(p)
-folium.circle( radius=100, location=[3.638966, 98.669383], popup='Mirel Baby & Kids').add_to(p)
-folium.circle( radius=100, location=[3.639800, 98.669011], popup='Mukhsin hts tailor').add_to(p)
-folium.circle( radius=100, location=[3.640030, 98.668539], popup='Halim Ponsel').add_to(p)
-folium.circle( radius=100, location=[3.640894, 98.668319], popup='Vz Motor').add_to(p)
+folium.Circle( radius=100, location=[3.637861, 98.669650], popup='Momkids CV').add_to(p)
+folium.Circle( radius=100, location=[3.638444, 98.669814], popup='Kos Yosafat').add_to(p)
+folium.Circle( radius=100, location=[3.638655, 98.670361], popup='Lis Ponsel').add_to(p)
+folium.Circle( radius=100, location=[3.638548, 98.669823], popup='DESRY ELEKTRIK').add_to(p)
+folium.Circle( radius=100, location=[3.638720, 98.669437], popup='Angga Ponsel 2').add_to(p)
+folium.Circle( radius=100, location=[3.638826, 98.669386], popup='Bu Neng Collection').add_to(p)
+folium.Circle( radius=100, location=[3.638966, 98.669383], popup='Mirel Baby & Kids').add_to(p)
+folium.Circle( radius=100, location=[3.639800, 98.669011], popup='Mukhsin hts tailor').add_to(p)
+folium.Circle( radius=100, location=[3.640030, 98.668539], popup='Halim Ponsel').add_to(p)
+folium.Circle( radius=100, location=[3.640894, 98.668319], popup='Vz Motor').add_to(p)
 
 p
 
